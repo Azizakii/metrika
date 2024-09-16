@@ -1,0 +1,76 @@
+
+body {
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.header {
+    margin-top: 128px;
+    max-width: 956px;
+    font-weight: 400;
+    font-size: 60px;
+    letter-spacing: -0.03em;
+    align-items: left;
+    margin-bottom: 30px;
+}
+
+.header-image {
+    position: relative;
+    background-image: url('../resourses/first.png');
+    background-size: contain;
+    max-width: 1150px;
+    height: 500px;
+}
+
+.header-image-text {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 379px;
+    width: 430px;
+    font-size: 20px;
+    line-height: 27.34px;
+    color: #fff; 
+    letter-spacing: -0.03em;
+}
+
+.about-conteainer {
+    max-width: 1150px;
+    margin-left: 125px;
+}
+
+.about-title {
+    font-weight: 400;
+    margin-bottom: 31px;
+
+
+}
+
+.about-text{
+    width: 1050px;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    margin-bottom: 30px;
+}
+
+.about-button {
+    font-size: 20px;
+    display: block;
+    border:  1px solid #000000;
+    width: 249px;
+    height: 67px;
+    text-align: center;
+    line-height: 67px;
+    text-decoration: none;
+    color: #fff;
+    background-color:#AD1818;
+    border-radius: 5px;
+
+}
