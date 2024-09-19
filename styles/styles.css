@@ -206,7 +206,7 @@ body {
 .section-image {
     width: 100vw;
     position: relative;
-    background-image: url('/resourses/bedroom.png');
+    background-image: url('../resourses/bedroom.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
