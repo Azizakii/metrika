@@ -1,26 +1,66 @@
+html {
+    scroll-behavior: smooth;
+}
+
 
 body {
     font-family: 'Manrope', sans-serif;
     width: 100%;
     background-color: #f5f5f5;
+    box-sizing: border-box;
 }
 
-section {
-    width: 1180px;
+
+.hero {
+    padding: 0 15px;
+    margin-top: 30px;
+    margin-bottom: 71px;
+}
+
+.container {
+    max-width: 1180px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
-.hero {
-    padding: 0 15;
-    margin: 128px 0;
+.logo-link{
+    display: inline-block;
 }
+
+.logo {
+    display: block; 
+    width: 126.89px;
+    margin-right: 459px;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav__link {
+    margin-left: 67px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    color: rgb(18, 18, 18);
+}
+
+.active__link, .nav__link:hover {
+    display: inline-block;
+    opacity: 0.5;
+    text-decoration: none;
+    padding-bottom: 7px;
+    border-bottom: #000000 solid 1px;
+}
+
 
 .main-title {
     max-width: 956px;
     font-weight: 400;
     font-size: 60px;
     letter-spacing: -0.03em;
-    align-items: left;
     margin-bottom: 30px;
 }
 
@@ -31,8 +71,9 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    max-width: 1150px;
+    width: 100%;
     height: 500px;
+    margin-bottom: 150px;
 }
 
 .title-text {
@@ -50,8 +91,9 @@ section {
 .title {
     font-weight: 400;
     margin-bottom: 31px;
-
-
+    font-style: 18px;
+    line-height: 25px;
+    font-size: 18px;
 }
 
 .about-text {
@@ -96,7 +138,6 @@ section {
     font-weight: 400;
     line-height: 41px;
     margin-top: 15px;
-    margin-bottom: 15px;
     letter-spacing: -0.03em;
 }
 
@@ -106,8 +147,7 @@ section {
     font-weight: 400;
     line-height: 41px;
     color: #AD1818;
-
-
+    margin-top: 15px;
 }
 
 .project__button {
@@ -120,31 +160,37 @@ section {
     color:rgb(173, 24, 24);
     border: 1px solid rgb(173, 24, 24);
     border-radius: 5px;
-    margin-bottom: 151px;
+    margin-bottom: 147px;
 }
 
-section.services {
+.project__button:hover {
+    color: white;
+    border: 1px solid rgb(173, 24, 24);
+    background-color: rgb(173, 24, 24);
+}
+
+.services {
     padding-top: 151px;
     background-color: #000000;
     color: white;
     padding-bottom: 35px;
     width: 100%;
-    padding-left: 127px;
+    padding-left: 145px;
     font-size: 18px;
     font-weight: 200;
     line-height: 25px;
-    letter-spacing: -3%;
+    letter-spacing: -0.03em;
 }
 
 .service__item {
-    margin-bottom: 60px;
+    margin-bottom: 55px;
 }
 
 .service__item:nth-last-child(1) {
-    margin-bottom: 150px;
+    margin-bottom: 110px;
 }
 
-.servece__image {
+.service__image {
     width: 1150px;
     height: 270px;
 }
@@ -156,3 +202,99 @@ section.services {
     line-height: 41px;
     letter-spacing: -3%;
 }
+
+.section-image {
+    width: 100vw;
+    position: relative;
+    background-image: url('/resourses/bedroom.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    height: 717px;
+    margin-bottom: 150px;
+}
+
+.section-text {
+    position: absolute;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: rgb(255, 255, 255);
+    bottom: 60px;
+    left: 147px;
+    width: 443px;
+}
+
+.title-contacts:before {
+    content: '';
+    display: block;
+    background-image: url('/resourses/phone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 13px;
+    height: 22px;
+    margin-bottom: 13px;
+}
+
+.number {
+    margin-bottom: 30px;
+}
+
+.telNumber {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+}
+
+.mail {
+    margin-bottom: 160px;
+}
+
+.mailto {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -3%;
+    color: rgb(18, 18, 18);
+    opacity: 0.5;
+    text-decoration: none;
+    border-bottom: #000000 solid 2px;
+}
+
+.footer {
+    padding-top: 60px;
+    text-align: center;
+    width: 100vw;
+    height: 229px;
+    background-color: rgb(18, 18, 18);
+}
+
+.footer__link {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -3%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-left: 60px;
+}
+
+
+.footer__text {
+    padding-top: 88px;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
