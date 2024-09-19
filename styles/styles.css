@@ -230,7 +230,7 @@ body {
 .title-contacts:before {
     content: '';
     display: block;
-    background-image: url('/resourses/phone.png');
+    background-image: url('../resourses/phone.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
