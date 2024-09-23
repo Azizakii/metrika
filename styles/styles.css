@@ -216,7 +216,7 @@ body {
 .section-image {
     width: 100vw;
     position: relative;
-    background-image: url('/resourses/bedroom.png');
+    background-image: url('../resourses/bedroom.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -240,7 +240,7 @@ body {
 .title-contacts:before {
     content: '';
     display: block;
-    background-image: url('/resourses/phone.png');
+    background-image: url('../resourses/phone.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
