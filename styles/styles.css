@@ -79,7 +79,6 @@ body {
 .title-image {
     position: relative;
     background-image: url('../resourses/first.png');
-    background-size: contain;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
